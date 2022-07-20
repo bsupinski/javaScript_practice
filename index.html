@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>JS practice</title>
+</head>
+<body>
+    <header class="header border__bottom">
+        <div class="wrapper wrapper--navigation">
+            <h2>LOGO</h2>
+            <nav class="navigation">
+                <a class="nav__item" href="#home">Home</a>
+                <a class="nav__item" href="#about">About</a>
+                <a class="nav__item" href="#information">Information</a>
+                <a class="nav__item" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+        <section class="home border__bottom" id="home">
+            <div class="wrapper wrapper--section">
+                <h1>Home</h1>
+                <div class="slider">
+                    <div class="slide">
+                        <h3>Slide 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quasi harum dolorem corporis incidunt praesentium, error fuga dolore sit vitae, atque hic illum tempore rerum. Quas sed beatae vel inventore.</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Slide 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quasi harum dolorem corporis incidunt praesentium, error fuga dolore sit vitae, atque hic illum tempore rerum. Quas sed beatae vel inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dolore expedita iste dolor error, ipsam nihil soluta aliquid eos esse, deserunt rem itaque vel veritatis architecto odit officiis earum quaerat.</p>
+                    </div>
+                    <div class="slide">
+                        <h3>Slide 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quasi harum dolorem corporis incidunt praesentium, error fuga dolore.!</p>
+                    </div>
+                    <div class="left__button">&leftarrow;</div>
+                    <div class="right__button">&rightarrow;</div>
+                    <div class="dots__container">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="about border__bottom" id="about">
+            <div class="wrapper wrapper--section">
+                <h1>About</h1>
+                <div class="tab">
+                    <h2 class="tab__heading">Tab Component</h2>
+                    <div class="tab__component">
+                        <div class="example__tab--container">
+                            <button class="btn example__tab example__tab--1 example__tab--active" data-tab="1">Tab 01</button>
+                            <button class="btn example__tab example__tab--2" data-tab="2">Tab 02</button>
+                            <button class="btn example__tab example__tab--3" data-tab="3">Tab 03</button>
+                        </div>
+                        <div class="tab__content-container">
+                            <div class="example__content example__content--1 example__content--active">
+                                <h3>Tab 01</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            
+                            </div>
+            
+                            <div class="example__content example__content--2">
+                                <h3>Tab 02</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dignissimos quae, earum magni explicabo saepe quaerat autem dicta vitae, maxime ex, nisi doloremque odio obcaecati nesciunt nulla deleniti quisquam a.</p>
+                            </div>
+            
+                            <div class="example__content example__content--3">
+                                <h3>Tab 03</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente commodi quaerat adipisci sint at iusto ad earum temporibus! Et deserunt corporis odit delectus fugiat obcaecati illum ad, maxime quod.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="information border__bottom" id="information">
+            <div class="wrapper wrapper--section">
+                <h1>Information</h1>
+            </div>
+        </section>
+        <section class="contact border__bottom" id="contact">
+            <div class="wrapper wrapper--section">
+                <h1>Contact</h1>
+            </div>
+        </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>
